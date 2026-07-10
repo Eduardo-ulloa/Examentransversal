@@ -14,7 +14,6 @@ def mostrar_menu():
 def leer_opcion():
     while True:
         try:
-            opcion = int(input("Ingrese una opción (1-6): "))
             opcion = int(input("Ingrese una opción (1 - 6): "))
             if opcion < 1 or opcion > 6:
                 print("Opción inválida. Por favor, ingrese un número entre 1 y 6.")
